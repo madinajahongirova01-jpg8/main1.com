@@ -17,7 +17,6 @@
     border-radius: 20px;
 }
 
-.content { flex: 1; }
 
 .title {
     font-size: 48px;
@@ -170,7 +169,6 @@
 
 .salary {
   font-size: 18px;
-  font-weight: bold;
   margin-bottom: 4px;
 }
 
@@ -198,7 +196,6 @@
   border: none;
   padding: 10px 15px;
   border-radius: 6px;
-  flex: 1;
   cursor: pointer;
 }
 
@@ -208,8 +205,6 @@
   color: #333;
   padding: 10px 15px;
   border-radius: 6px;
-  flex: 1;
-  cursor: pointer;
 }
 
 .card-footer {
@@ -281,7 +276,6 @@ h2 {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-weight: bold;
 }
 
 .brand img {
@@ -326,7 +320,6 @@ h2 {
   border-radius: 8px;
   display: flex;
   align-items: center;
-  flex: 1;
   max-width: 250px;
 }
 
@@ -372,9 +365,404 @@ input {
   display: flex;
   align-items: center;
   gap: 10px;
-  font-weight: bold;
 }
 
 .icon {
   font-size: 14px;
+}
+.allll{
+    display: none;
+}
+@media (max-width:510px) {
+    .alll{
+        display: none;
+    }
+    .allll{
+    display: block;
+}
+     .form-section {
+    padding: 20px;
+    background: #fff;
+    font-family: -apple-system, sans-serif;
+  }
+
+  .section-heading {
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 25px;
+    color: #1a1a1a;
+  }
+
+  .input-group {
+    display: flex;
+    background: #f8f9fa;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    padding: 10px 15px;
+    margin-bottom: 15px;
+    align-items: center;
+  }
+
+  .phone-input {
+    border: none;
+    background: transparent;
+    font-size: 18px;
+    outline: none;
+  }
+
+  .submit-arrow {
+    background: #f1f1f1;
+    border-radius: 8px;
+    padding: 10px;
+    display: flex;
+  }
+
+  .call-options {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 30px;
+  }
+
+  .call-label {
+    padding: 15px;
+    background: #f8f9fa;
+    border-radius: 10px;
+    text-align: center;
+    color: #666;
+  }
+
+  .call-btn-black {
+    background: #1e2329;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+
+  /* Список этапов */
+  .steps-list {
+    margin-bottom: 30px;
+  }
+
+  .step-item {
+    display: flex;
+    gap: 15px;
+    margin-bottom: 20px;
+    align-items: center;
+  }
+
+  .step-number {
+    width: 30px;
+    height: 30px;
+    border: 1px solid #ddd;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    color: #999;
+  }
+
+  .step-text {
+    font-size: 16px;
+    color: #333;
+  }
+
+  .promo-card {
+    background: #424b57;
+    color: #fff;
+    border-radius: 15px;
+    padding: 25px;
+    position: relative;
+    overflow: hidden;
+  }
+
+  .promo-title {
+    font-size: 24px;
+    margin-bottom: 15px;
+  }
+
+  .promo-desc {
+    font-size: 16px;
+    color: #ccc;
+    margin-bottom: 15px;
+  }
+
+  .promo-salary {
+    display: inline-block;
+    background: #2c323a;
+    padding: 10px 15px;
+    border-radius: 8px;
+    margin-bottom: 25px;
+  }
+
+  .free-label {
+    font-size: 14px;
+    color: #aaa;
+    margin-bottom: 10px;
+  }
+
+  .phone-display {
+    background: #fff;
+    color: #1e2329;
+    padding: 15px 30px;
+    border-radius: 15px;
+    font-size: 40px;
+    font-weight: 800;
+    display: inline-block;
+  }
+
+  .handset-icon {
+    position: absolute;
+    right: 10px;
+    width: 120px;
+  }
+    .companies-section {
+    padding: 15px;
+    background: #fff;
+    font-family: -apple-system, sans-serif;
+  }
+
+  .section-title {
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    color: #1a1a1a;
+  }
+
+  .company-card {
+    border: 1px solid #eee;
+    border-radius: 12px;
+    padding: 16px;
+    margin-bottom: 12px;
+    width: 340px;
+    height: 200px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+  }
+
+  .vacancy-info {
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 12px;
+  }
+
+  .company-header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 8px;
+  }
+
+  .company-logo {
+    width: 24px;
+    height: 24px;
+    object-fit: contain;
+  }
+
+  .company-name {
+    font-size: 20px;
+    color: #1a1a1a;
+  }
+
+  .salary-text {
+    font-size: 16px;
+    color: #666;
+    margin-bottom: 16px;
+  }
+
+  .btn-details {
+    width: 100%;
+    background: #fff;
+    border: 1px solid #d4b08c;
+    color: #333;
+    padding: 12px;
+    border-radius: 8px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+    .category-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    padding: 15px;
+    background: #fdfdfd;
+    font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+  }
+
+  .category-card {
+    background: #fff;
+    border: 1px solid #eee;
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.02);
+  }
+
+  .category-name {
+    font-size: 20px;
+    font-weight: 500;
+    color: #222;
+    margin-bottom: 8px;
+    line-height: 1.2;
+  }
+
+  .category-salary {
+    font-size: 18px;
+    color: #888;
+    margin-bottom: 12px;
+  }
+
+  .card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 10px;
+    border-top: 1px solid #f5f5f5;
+  }
+
+  .vacancy-count {
+    color: #00a859;
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .arrow-down {
+    width: 10px;
+    height: 10px;
+    border-right: 2px solid #ccc;
+    border-bottom: 2px solid #ccc;
+    margin-bottom: 5px;
+  }
+     .jobs-container {
+    padding: 10px;
+    background: #f5f5f5;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    font-family: sans-serif;
+  }
+
+  .job-card {
+    background: #fff;
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.05);
+  }
+
+  .job-date {
+    color: #999;
+    font-size: 12px;
+    margin-bottom: 12px;
+  }
+
+  .job-salary {
+    font-size: 24px;
+    font-weight: 800;
+    color: #000;
+    margin-bottom: 4px;
+  }
+
+  .job-title {
+    font-size: 18px;
+    color: #333;
+    margin-bottom: 12px;
+  }
+
+  .job-divider {
+    height: 1px;
+    background: #eee;
+    margin: 12px 0;
+  }
+
+  .job-status {
+    color: #aaa;
+    font-size: 13px;
+    margin-bottom: 16px;
+  }
+
+  .job-actions {
+    display: flex;
+    gap: 10px;
+  }
+
+  .btn-apply {
+    background: #d4b08c;
+    color: #000;
+    border: none;
+    padding: 14px;
+    border-radius: 10px;
+    font-size: 15px;
+  }
+
+  .btn-call-outline {
+    background: #fff;
+    color: #000;
+    border: 1px solid #d4b08c;
+    padding: 14px;
+    border-radius: 10px;
+    font-size: 15px;
+  }
+     .container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background: #fff;
+    font-family: sans-serif;
+    position: relative;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  .logo-img {
+    height: 30px;
+  }
+  .lang-img {
+    height: 25px; 
+  }
+  .hero {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .title {
+    font-size: 34px;
+    font-weight: 900;
+  }
+  .subtitle {
+    font-size: 18px;
+    color: #444;
+    margin-top: 15px;
+  }
+  .person-container {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 350px;
+  }
+  .person-img {
+    height: 100%; 
+    z-index: 2;
+  }
+  .survey-img {
+    width: 100%; 
+    margin-bottom: 15px;
+    border-radius: 15px;
+  }
+  .footer-row {
+    display: flex;
+    gap: 10px;
+  }
+  .button-img {
+    height: 70px;
+    object-fit: contain;
+  }
+  .call-img {
+    width: 70px; 
+    height: 70px;
+  }
 }
